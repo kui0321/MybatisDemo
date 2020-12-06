@@ -1,0 +1,7 @@
+<2020-12-03 12:39:25,254> DEBUG (LogDemo.java:10) [main] org.apache.log4j.Logger - nihao
+<2020-12-03 12:43:40,758> DEBUG (LogDemo.java:10) [main] org.apache.log4j.Logger - nihao
+<2020-12-03 12:43:40,762> ERROR (LogDemo.java:15) [main] org.apache.log4j.Logger - java.lang.NullPointerExceptionerror
+<2020-12-03 12:43:40,762> DEBUG (LogDemo.java:16) [main] org.apache.log4j.Logger - java.lang.NullPointerExceptiondebug
+<2020-12-03 13:46:30,961> DEBUG (commonDemo.java:11) [main] com.wsk.test.commonDemo - common
+<2020-12-03 13:46:30,964> ERROR (commonDemo.java:17) [main] com.wsk.test.commonDemo - java.lang.NullPointerExceptionerror
+<2020-12-03 13:46:30,964> DEBUG (commonDemo.java:18) [main] com.wsk.test.commonDemo - java.lang.NullPointerExceptiondebug

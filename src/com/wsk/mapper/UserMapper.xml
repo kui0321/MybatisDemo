@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsk.mapper.UserMapper">
+    <sql id="userColumns">
+        userid, username, usersex
+    </sql>
+    <!--查询所有用户-->
+    <select id="selectUsersAll" resultType="com.wsk.pojo.Users">
+        select <include refid="userColumns" /> from users;
+    </select>
+
+    <select id="selectUsersById" resultType="com.wsk.pojo.Users">
+        select <include refid="userColumns" /> from users where userid = #{userid};
+    </select>
+
+<!--    添加用户-->
+    <insert id="insertUsers">
+        insert into users value(default, #{username}, #{usersex});
+    </insert>
+    
+<!--    预更新用户的修改-->
+    <select id="selectUserById1" resultType="com.wsk.pojo.Users">
+        select <include refid="userColumns" /> from users where userid = ${userid};
+    </select>
+<!--    更新用户操作-->
+    <update id="UpdateUserById">
+        update users set username = #{username},usersex = #{usersex} where userid = #{userid};
+    </update>
+<!--    删除用户操作-->
+    <delete id="deleteUserById">
+        delete from users where userid = #{userid}
+    </delete>
+
+
+
+</mapper>

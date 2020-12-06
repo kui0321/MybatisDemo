@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="asm-7.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/asm-7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/cglib-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/javassist-3.27.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/jsqlparser-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/log4j-api-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/log4j-core-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/mybatis-3.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/mysql-connector-java-5.1.48.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/ognl-3.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/pagehelper-5.1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../maven/Mybatis/lib/slf4j-log4j12-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
